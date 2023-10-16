@@ -1,13 +1,25 @@
+*{
+  margin:0;
+  padding:0;
+}
 .done{
   text-decoration: line-through;
   list-style-type:'😔';
+  
 }
 li{
   list-style-type:'✔️';
   margin:2px;  
+  color:darkgoldenrod;
+  
 }
 ul div{
   display: flex;
+  width: 100%;
+  padding: 5px;
+  margin:50px;
+  
+
 }
 ul div button{
   margin:5px;
@@ -16,4 +28,41 @@ ul div button{
   background-color: white;
   position:absolute;
   right:1200px;
+}
+.header_div{
+  background: rgb(58,179,180);
+  background: linear-gradient(90deg, rgba(58,179,180,1) 9%, rgba(29,247,253,0.4392944677871149) 69%, rgba(69,78,252,1) 100%);
+  color:darkgoldenrod;
+  padding: 10px;
+  margin-bottom:5px;
+}
+
+.entries_tool{
+  text-align: center;
+  padding: 20px;
+  margin:20px;
+  background: rgb(28,36,156);
+background: radial-gradient(circle, rgba(28,36,156,1) 0%, rgba(107,12,23,1) 100%);
+display: flex;
+}
+.entries_tool input{
+  width:50%;
+  height: 40px;
+  padding: 5px 5px;
+  
+}
+.entries_tool button{
+  width:50%;
+  height: 52px; 
+  padding: 5px 5px;
+  margin-bottom:2px;
+  cursor: pointer;
+}
+.data_show{
+  background: linear-gradient(white, white) padding-box,
+  linear-gradient(to right, darkblue, darkorchid) border-box;
+border-radius: 50px;
+border: 4px solid transparent;
+
+
 }
